@@ -4,11 +4,16 @@ import Header from "./Header";
 
 import "./styles.css";
 
+import AppNav from "./components/AppNav";
+import AppFooter from "./components/AppFooter";
+
 function App() {
   return (
     <div className="App">
+      <AppNav />
       <Header text="Hello Coder" />
-      <h2>Start editing to see some magic happen!</h2>
+      <h2>Welcome to awesome React application development!</h2>
+      <AppFooter />
     </div>
   );
 }
